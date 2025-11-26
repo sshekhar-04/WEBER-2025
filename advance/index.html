@@ -95,7 +95,7 @@
       if (input.value === currentSentence) {
         const timeTaken = (Date.now() - startTime) / 1000;
 
-        result.textContent = Completed in ${timeTaken} seconds ⏱;
+        result.textContent = `Completed in ${timeTaken} seconds ⏱`;
         input.disabled = true;
       }
     });
